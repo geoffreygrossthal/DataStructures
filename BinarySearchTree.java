@@ -1,3 +1,7 @@
+//Date: 7/22/2024
+//Programmer: Geoffrey Grossthal
+//Program: Represents an implementation of a binary search tree using integers
+
 public class BinarySearchTree {
     
     public TreeNode root;
