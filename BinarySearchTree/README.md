@@ -2,7 +2,8 @@
 
 ## Important Notes
 
-### Duplicates Are Not Supported
+### Duplicates
+Inserting duplicate will result in the original value being replaced.
 
 ## Overview
 
