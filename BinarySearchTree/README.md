@@ -1,24 +1,23 @@
-Binary Search Tree with Keyed Interface
-Overview
-This project implements a binary search tree (BST) in Java through the BinarySearchTree class. The BST is designed to manage and organize objects that implement the Keyed interface, supporting operations such as insertion, searching, and visualization. The code includes specific implementations of the Keyed interface, demonstrating how different types of objects can be used as keys in the tree.
+# Binary Search Tree with Keyed Interface
 
-Project Structure
+## Overview
+
+This project implements a binary search tree (BST) in Java through the `BinarySearchTree` class. The BST is designed to manage and organize objects that implement the `Keyed` interface, supporting operations such as insertion, searching, and visualization. The code includes specific implementations of the `Keyed` interface, demonstrating how different types of objects can be used as keys in the tree.
+
+## Project Structure
+
 The project consists of several key classes and interfaces:
 
-BinarySearchTree Class: Implements the binary search tree and provides methods for inserting, searching, and managing nodes.
+- **`BinarySearchTree` Class**: Implements the binary search tree and provides methods for inserting, searching, and managing nodes.
+- **`Node` Class**: Represents a node in the BST, containing a `Keyed` object and references to left and right child nodes.
+- **`Keyed` Interface**: Defines a contract for objects that can be stored in the BST, including methods for comparing keys and identifying objects.
+- **`NBAPlayerKey` Class**: Implements the `Keyed` interface for NBA players, allowing for custom comparison based on jersey number and team name.
+- **`NBAPlayer` Class**: Extends `NBAPlayerKey` to include additional player details such as scoring average and player name.
+- **`KeyableNumber` Class**: Implements the `Keyed` interface for numeric keys, providing basic key comparison functionality.
 
-Node Class: Represents a node in the BST, containing a Keyed object and references to left and right child nodes.
+## Usage
 
-Keyed Interface: Defines a contract for objects that can be stored in the BST, including methods for comparing keys and identifying objects.
-
-NBAPlayerKey Class: Implements the Keyed interface for NBA players, allowing for custom comparison based on jersey number and team name.
-
-NBAPlayer Class: Extends NBAPlayerKey to include additional player details such as scoring average and player name.
-
-KeyableNumber Class: Implements the Keyed interface for numeric keys, providing basic key comparison functionality.
-
-Usage
-1. Creating a Binary Search Tree
+### 1. Creating a Binary Search Tree
 To create and use a BinarySearchTree, follow these steps:
 
 java
